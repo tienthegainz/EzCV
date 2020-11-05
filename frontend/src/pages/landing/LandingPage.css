@@ -1,0 +1,88 @@
+.header {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.header .left {
+  width: 300px;
+  height: 300px;
+}
+
+.header .left img {
+  width: 300px;
+  height: 300px;
+}
+
+.header .right {
+  display: flex;
+  justify-content: center;
+  margin: none;
+  flex-direction: column;
+}
+
+.header .right h1 {
+  font-size: 50px;
+  margin: 10px;
+}
+
+.header .right p {
+  font-size: 35px;
+  margin: 10px;
+}
+
+.header .right button {
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 45px;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+  background-color: #3333ff;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.desc {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.desc p {
+  font-size: 25px;
+}
+
+.gallery {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.gallery img {
+  margin: 20px;
+  float: left;
+}
+
+.gallery img:hover {
+  border: 1px solid #777;
+}
+
+.gallery .screenshot {
+  height: 400px;
+  width: 600px;
+}
+
+.gallery .resume {
+  height: 400px;
+  width: 300px;
+}
